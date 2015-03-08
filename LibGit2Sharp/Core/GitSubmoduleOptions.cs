@@ -13,7 +13,5 @@ namespace LibGit2Sharp.Core
         public GitRemoteCallbacks RemoteCallbacks;
 
         public CheckoutStrategy CloneCheckoutStrategy;
-
-        public IntPtr Signature;
     }
 }

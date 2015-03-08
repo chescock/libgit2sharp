@@ -79,6 +79,7 @@
     <Compile Include="EntryExistsException.cs" />
     <Compile Include="FetchOptionsBase.cs" />
     <Compile Include="IBelongToARepository.cs" />
+    <Compile Include="Identity.cs" />
     <Compile Include="IndexNameEntryCollection.cs" />
     <Compile Include="ContentChangeStats.cs" />
     <Compile Include="BuiltInFeatures.cs" />
@@ -130,7 +131,6 @@
     <Compile Include="Core\Handles\StatusListSafeHandle.cs" />
     <Compile Include="RenameDetails.cs" />
     <Compile Include="RevertResult.cs" />
-    <Compile Include="SignatureExtensions.cs" />
     <Compile Include="RevertOptions.cs" />
     <Compile Include="StageOptions.cs" />
     <Compile Include="StatusOptions.cs" />

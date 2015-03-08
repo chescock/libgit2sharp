@@ -1,4 +1,6 @@
-﻿namespace LibGit2Sharp
+﻿using System;
+
+namespace LibGit2Sharp
 {
     /// <summary>
     /// Provides optional additional information to the Repository to be opened.
@@ -52,5 +54,7 @@
         /// </para>
         /// </summary>
         public string SystemConfigurationLocation { get; set; }
+
+        public Identity Identity { get; set; }
     }
 }
