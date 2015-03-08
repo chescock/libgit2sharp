@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LibGit2Sharp
+﻿namespace LibGit2Sharp
 {
     /// <summary>
     /// Provides optional additional information to the Repository to be opened.
